@@ -2,20 +2,44 @@
 <title>DEMO</title>
 <h1>Testing H1</h1>
 <p>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.</p> -->
-<!--<title> DAY 2 </title>-->
+<title> DAY 2 HTML_CSS</title>
+<head>
+    <link rel="stylesheet" href="style.css">
+<!--<style>
+    h1,form{
+        text-align: center ;
+    }
+    p{
+        text-align: right;
+        color: blueviolet;
+    }
+    table{
+        width: 100%;
+        background-color: rgba(120, 248, 248, 0.813);
+        text-align: center;
+        border-collapse: collapse;
+    }
+    th,td
+    {
+        padding-left: 10px;
+    }
+    th{
+        background-color: bisque;
+    }
+</style>--></head>
 <h1>We are gonna watch a song together</h1>
 <p>The song is 
     <strong>
         <a href="https://www.google.com/search?q=konja+naal+poru+thalaivaa+lyrics+in+tamil&sca_esv=599994442&rlz=1C1JJTC_enIN985IN986&tbm=vid&source=lnms&sa=X&ved=2ahUKEwipuYy_keuDAxWGV2wGHW_uDboQ_AUoAXoECAIQAw&biw=1536&bih=739&dpr=1.25#fpstate=ive&vld=cid:0e8e87fd,vid:zj5L1VW_LVc,st:0" target="_blank">
-    konjam naal poru thalaiva
-        </a>
+    konjam naal poru thalaiva 
+        </a>❤️
     </strong>
 </p>
 
 <p>Songs calm us <b>and regenerate our brain.</b> It gives us new 
     <strong> 
         to work and motivate
-    </strong> to move forward
+    </strong> to move forward <abbr title="Laugh Out Loud">LOL</abbr>
 </p>
 <hr>
 <h1>IMAGES</h1>
@@ -24,6 +48,7 @@
 <img src="https://tse2.mm.bing.net/th?id=OIP.B5QCNJ0E6DLbhLSWmChprQHaLG&pid=Api&P=0&h=180" alt="NATURE">
 </center>
 <br><hr>
+<div id="Ordered">
 <ol>
     <pre><li>Name        : Nikita Nalankilli</li>
     <li>Nic name    : Nikita</li>
@@ -31,8 +56,9 @@
     <li>Father Name : Nalankilli</li>
     <li>Mother Name : Nirmala Devi</li></pre>
 
-</ol>
+</ol></div>
 <hr>
+<div id="Unordered">
 <ul>
     <pre>
         <li>Pav Bhaji</li>
@@ -41,9 +67,9 @@
         <li>Lychee Icecream</li>
         <li>Rasam Rice</li>
     </pre>
-</ul>
+</ul></div>
 <hr>
-<table>
+<table border="2">
     <tr>
       <th>NAME</th>
       <th>AGE</th>
@@ -61,8 +87,9 @@
   <!--<p>PARAGRAPH 200 WORDS</p>
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur perferendis, alias doloremque repudiandae deserunt cumque dolorum maxime, consectetur assumenda aliquam atque hic laudantium accusantium itaque quae voluptates eos iure culpa! Aliquam explicabo eum porro ea maxime maiores officia eos? Accusamus vitae architecto molestias corporis quasi quo illum, nemo sed, rerum enim fugiat sint quaerat maxime odit consequuntur! Nesciunt consectetur cupiditate perferendis illum qui architecto! Nesciunt non similique quas accusamus. Obcaecati atque quo temporibus eos earum quod veniam corporis reiciendis neque odio debitis adipisci, nisi assumenda dolorum qui ratione rem eaque id sed fugiat? Laudantium ad, libero autem ab et ex vitae fuga maiores nostrum, expedita corrupti tenetur quidem temporibus deserunt eius ut placeat sunt ipsa possimus, molestias exercitationem dicta provident. Ducimus neque molestiae ut temporibus at quibusdam rem dolores explicabo illum, maiores unde nesciunt eaque repudiandae veniam asperiores fuga cumque possimus labore corrupti sunt! Id nisi minus quis esse, ex, facere voluptatem alias accusamus veniam repudiandae repellendus, impedit doloremque. Tempore molestiae a rem doloremque eveniet pariatur assumenda. Dignissimos exercitationem veniam doloribus animi nam optio expedita nesciunt, repellendus unde qui voluptatum enim, quae, sequi sapiente quam atque deleniti! Dicta at obcaecati, assumenda harum laboriosam, adipisci quo quia autem eaque ut repellat?</p>
   -->
-  <form><center>
-    <h1><u>Movie Review</u></h1>
+  <h1  style="text-align: center; color: palevioletred;font-size: 250%; background-color: beige;border: 4px dotted purple;"><u>Movie Review</u></h1>
+  <form style="color: rgb(171, 85, 250);background-color: beige;">
+    
     <fieldset>
     <!--<legend>Movie Review</legend>-->
     
@@ -70,13 +97,13 @@
     <label for="First name">
         First Name : 
     </label>
-    <input type="text">
+    <input type="text" style="background-color: pink;">
     <br>
     <br>
-    <label for="Last name">
+    <label for="Last name " >
         Last Name : 
     </label>
-    <input type="text">
+    <input type="text" style="background-color: pink;">
     <br><br>
 
     <label for="Show time">Show time : </label>
@@ -84,8 +111,8 @@
     <input type="radio" name="Show time" value="Evening Show">Evening 
     <br><br>
 
-    <label for="dropdown">Movie Name : </label>
-    <select name="Drop1">
+    <label for="dropdown" >Movie Name : </label>
+    <select name="Drop1" style="background-color: bisque;">
         <option value="Choose" disabled selected hidden>Choose</option>
         <option value="Leo">Leo</option>
         <option value="sura">sura</option>
@@ -110,9 +137,9 @@
 
 
 
-    <input type="submit">
-    <input type="reset">
+    <input type="submit" style="background-color: brown;color: aliceblue;">
+    <input type="reset" style="background-color: brown;color: aliceblue;">
 </fieldset>
-</center>
+
   </form>
-  <hr>
+  <hr> 

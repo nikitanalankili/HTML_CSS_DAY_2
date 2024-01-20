@@ -1,0 +1,27 @@
+h1,form{
+    text-align: center ;
+    margin: 20px;
+}
+p{
+    text-align: justify;
+    color: blueviolet;
+}
+table{
+    width: 100%;
+    background-color: rgba(120, 248, 248, 0.813);
+    text-align: center;
+    border-collapse: collapse;
+}
+th,td
+{
+    padding-left: 10px;
+}
+th{
+    background-color: bisque;
+}
+#unordered{
+    background-color: aquamarine;
+}
+#ordered{
+    background-color: rgb(164, 255, 255);
+}
