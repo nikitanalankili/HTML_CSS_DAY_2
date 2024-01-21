@@ -9,7 +9,7 @@
 
 .grid-item{
    
-    border: 5px;
+    border: 3px solid brown;
     padding: 20px;
     margin: 10px;
     background-color: antiquewhite;
@@ -18,20 +18,22 @@
 }
 
 
-@media (max-width : 500px){
+
+@media (max-width : 700px){
     .grid-container{
         grid-template-columns: repeat(1 , 1fr);
         background-color: azure;
 
     }  
-    
-}
-@media (max-width : 500px){
-    .grid-container{
-        grid-template-columns: repeat(1 , 1fr);
-        background-color: rgb(78, 128, 128);
+    .grid-item{
+   
+        border: 5px double black;
+        padding: 20px;
+        margin: 10px;
+        background-color: lavender;
+        color: darkblue;
+        text-align: center;
 
-    }  
     
 }
 /* @media (min-width : 800px){
